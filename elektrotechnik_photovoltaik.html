@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elektrotechnik & Photovoltaik — Innovative Lösungen</title>
+  <meta name="description" content="Elektrotechnik-Services, Beratung und Photovoltaik-Lösungen für Privat- und Gewerbekunden. Kostenlose Erstberatung & Förderhinweise." />
+  <meta name="keywords" content="Elektrotechnik, Photovoltaik, PV-Anlage, Solar, Energie, Installation, Beratung" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Einfache, saubere Styles. Kein Framework nötig; nutze Tailwind-CDN falls du magst. -->
+  <style>
+    :root{--accent:#0ea5a4;--dark:#0f172a;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;color:#0b1220;margin:0;background:linear-gradient(180deg,#f8fafc,white 30%)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#38bdf8);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav a{margin-left:18px;color:var(--dark);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin-top:18px}
+    .hero h1{font-size:2.1rem;margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .cta{display:inline-block;background:var(--accent);color:white;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .card{background:white;border-radius:14px;padding:18px;box-shadow:0 6px 20px rgba(15,23,42,0.06)}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+    .feature h3{margin:8px 0 6px}
+    .ad-slot{border:2px dashed #e6eef0;border-radius:8px;padding:18px;text-align:center;color:var(--muted)}
+    .pv-list{display:flex;flex-direction:column;gap:12px}
+    footer{margin-top:36px;padding:24px 0;color:var(--muted);font-size:0.95rem}
+    .contact-row{display:flex;gap:12px}
+    form input,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef0}
+    .small{font-size:0.85rem;color:var(--muted)}
+    @media (max-width:980px){.hero{grid-template-columns:1fr;}.features{grid-template-columns:repeat(2,1fr);}}
+    @media (max-width:640px){.features{grid-template-columns:1fr}.logo{width:48px;height:48px}.hero h1{font-size:1.6rem}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">ET</div>
+        <div>
+          <div style="font-weight:800">Elektrotechnik & PV</div>
+          <div class="small">Effizient. Sicher. Zukunftsfähig.</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#pv">Photovoltaik</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Moderne Elektrotechnik & maßgeschneiderte Photovoltaik‑Lösungen</h1>
+          <p>Wir bieten Planung, Installation und Wartung von elektrischen Systemen – mit Fokus auf energieeffiziente Photovoltaik-Anlagen für Haus und Gewerbe. Förderfähige Konzepte und ROI‑Berechnungen inklusive.</p>
+          <a class="cta" href="#kontakt">Kostenlose Erstberatung</a>
+
+          <div class="features">
+            <div class="card feature">
+              <strong>Planung & Design</strong>
+              <h3>Individuelle Konzepte</h3>
+              <p class="small">Netzanschluss, Wechselrichter‑Auswahl, Verschattungssimulationen.</p>
+            </div>
+            <div class="card feature">
+              <strong>Installation</strong>
+              <h3>Fachgerechte Montage</h3>
+              <p class="small">Zertifizierte Installation nach aktueller Normung (z. B. VDE/EN).</p>
+            </div>
+            <div class="card feature">
+              <strong>Service</strong>
+              <h3>Wartung & Monitoring</h3>
+              <p class="small">Langfristige Leistungssicherung durch Serviceverträge und Monitoring.</p>
+            </div>
+          </div>
+
+          <section id="leistungen" style="margin-top:18px">
+            <div class="card">
+              <h2 style="margin:0 0 8px">Unsere Leistungen</h2>
+              <ul class="small" style="margin:0;padding-left:18px">
+                <li>Elektroinstallation & Smarthome‑Integration</li>
+                <li>Photovoltaik‑Planung & Fördermittelberatung</li>
+                <li>Notstrom & Speicherlösungen (Batteriespeicher)</li>
+                <li>Netzkonzepte für Gewerbe & Industrie</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <!-- Rechts: Werbefläche / PV-Promotion -->
+        <aside>
+          <div class="card">
+            <h3 style="margin-top:0">Top-Angebot: Photovoltaik‑Starterpaket</h3>
+            <p class="small">Alles aus einer Hand: Module, Wechselrichter, Montage & Inbetriebnahme. Sichern Sie sich jetzt ein kostenloses Angebot inklusive Rendite‑Prognose.</p>
+
+            <div style="margin:12px 0">
+              <strong>Beispiel‑Konfiguration</strong>
+              <div class="pv-list small" style="margin-top:8px">
+                <div>• 6 kWp Solarmodul-Set</div>
+                <div>• Hybrid‑Wechselrichter (Batterie‑ready)</div>
+                <div>• Installation & Inbetriebnahme</div>
+              </div>
+            </div>
+
+            <a class="cta" href="#kontakt" style="display:inline-block;margin-top:12px">Jetzt Angebot anfordern</a>
+
+            <hr style="margin:14px 0;border:none;border-top:1px solid #eef3f5" />
+
+            <!-- Platzhalter für Werbung (z. B. Google AdSense) -->
+            <div class="ad-slot">
+              <div style="font-weight:700">Werbung</div>
+              <div class="small">Hier könnte Ihre Anzeige stehen. Ersetzen Sie diesen Block mit dem AdSense‑Snippet oder Affiliate‑Banner.</div>
+              <div style="margin-top:8px;font-size:0.9rem;color:var(--accent)">Anzeige: Photovoltaik‑Partner</div>
+            </div>
+
+            <p class="small" style="margin-top:12px">Finanzierung & Förderprogramme: Tipps zur lokalen Förderung und Amortisationsrechnung.</p>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Warum PV? -->
+      <section style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center">
+        <div class="card">
+          <h2 style="margin-top:0">Warum Photovoltaik?</h2>
+          <p class="small">Photovoltaikanlagen senken Stromkosten, erhöhen die Unabhängigkeit vom Netz und leisten einen Beitrag zum Klimaschutz. Mit Batteriespeicher lässt sich der Eigenverbrauch deutlich steigern.</p>
+          <ul class="small" style="padding-left:18px;margin:8px 0">
+            <li>Geringere Betriebskosten</li>
+            <li>Steigende Energieautarkie</li>
+            <li>Wertsteigerung der Immobilie</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2 style="margin-top:0">Förderung & Wirtschaftlichkeit</h2>
+          <p class="small">Je nach Region gibt es Zuschüsse und zinsgünstige Kredite. Wir erstellen eine Amortisationsrechnung und zeigen die zu erwartende Rendite über 10–25 Jahre.</p>
+          <div class="small" style="margin-top:8px">Beispiel: 6 kWp → Jahresertrag ca. 4.800 kWh (variabel je nach Standort).</div>
+        </div>
+      </section>
+
+      <!-- Einfache Kontaktsektion -->
+      <section id="kontakt" style="margin-top:26px">
+        <div class="card">
+          <h2>Kontakt & Anfrage</h2>
+          <p class="small">Schreiben Sie uns kurz — wir melden uns innerhalb von 48 Stunden.</p>
+
+          <!-- Einfaches Formular: mailto, keine Server‑Seite nötig -->
+          <form action="mailto:info@deinbetrieb.de" method="post" enctype="text/plain">
+            <label class="small">Name</label>
+            <input type="text" name="name" required placeholder="Vorname Nachname" />
+            <label class="small" style="margin-top:8px">E‑Mail</label>
+            <input type="email" name="email" required placeholder="name@beispiel.de" />
+            <label class="small" style="margin-top:8px">Nachricht</label>
+            <textarea name="message" rows="5" placeholder="Ich interessiere mich für ein Angebot..." required></textarea>
+            <div style="display:flex;gap:10px;margin-top:12px">
+              <button type="submit" class="cta" style="border:none;cursor:pointer">Anfrage senden</button>
+              <a href="tel:+491234567890" style="display:inline-flex;align-items:center;padding:10px 12px;border-radius:8px;background:#eef6f6;text-decoration:none;color:var(--dark);font-weight:600">☎ +49 123 456 7890</a>
+            </div>
+          </form>
+
+          <p class="small" style="margin-top:10px">Datenschutz: Mit dem Absenden willigen Sie ein, dass Ihre Daten zur Bearbeitung der Anfrage genutzt werden.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+        <div class="small">© <span id="year"></span> Elektrotechnik & PV — Alle Rechte vorbehalten</div>
+        <div class="small">Impressum | Datenschutz | AGB</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Füge das aktuelle Jahr automatisch ein
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Hinweis: Ersetze den Ad-Slot durch dein Google AdSense Snippet oder Affiliate‑Banner.
+    // Wenn du Tracking, Analytics oder eingebettete Karten nutzen willst, achte auf Datenschutz (DSGVO).
+  </script>
+
+  <!--
+    Hinweise zum Deployment (kostenlos):
+    - GitHub Pages: Repository erstellen, Datei index.html pushen, Pages aktivieren.
+    - Netlify / Vercel: Drag & Drop der index.html oder Deploy aus Git-Repo.
+    - Für individuelle Domain: DNS auf Hosting-Provider zeigen.
+
+    Anpassungen:
+    - Ersetze info@deinbetrieb.de und Telefonnummer mit deinen Kontaktdaten.
+    - Tausche Platzhalterbilder/Logo aus und füge echte Referenzen hinzu.
+    - Für echte Werbeanzeigen: AdSense-Konto erstellen und das Snippet anstelle des Ad‑Slot Blocks einfügen.
+  -->
+</body>
+</html>
